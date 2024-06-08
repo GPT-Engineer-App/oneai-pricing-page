@@ -3,7 +3,6 @@
 import React from "react";
 import Image from "next/image";
 import { useState } from "react";
-import { FaCheckCircle } from "react-icons/fa";
 
 const Home = () => {
   const [faqOpen, setFaqOpen] = useState<number | null>(null);
@@ -48,10 +47,10 @@ const Home = () => {
                 <p className="text-2xl font-bold mb-4">$0/month</p>
                 <ul className="mb-6">
                   <li className="flex items-center justify-center mb-2">
-                    <FaCheckCircle className="text-green-500 mr-2" /> Basic Features
+                    <span className="text-green-500 mr-2">✔</span> Basic Features
                   </li>
                   <li className="flex items-center justify-center mb-2">
-                    <FaCheckCircle className="text-green-500 mr-2" /> Limited API Calls
+                    <span className="text-green-500 mr-2">✔</span> Limited API Calls
                   </li>
                 </ul>
                 <button className="bg-blue-600 text-white font-semibold py-2 px-4 rounded">Sign Up</button>
@@ -64,13 +63,13 @@ const Home = () => {
                 <p className="text-2xl font-bold mb-4">$49/month</p>
                 <ul className="mb-6">
                   <li className="flex items-center justify-center mb-2">
-                    <FaCheckCircle className="text-green-500 mr-2" /> All Free Features
+                    <span className="text-green-500 mr-2">✔</span> All Free Features
                   </li>
                   <li className="flex items-center justify-center mb-2">
-                    <FaCheckCircle className="text-green-500 mr-2" /> Higher API Limits
+                    <span className="text-green-500 mr-2">✔</span> Higher API Limits
                   </li>
                   <li className="flex items-center justify-center mb-2">
-                    <FaCheckCircle className="text-green-500 mr-2" /> Priority Support
+                    <span className="text-green-500 mr-2">✔</span> Priority Support
                   </li>
                 </ul>
                 <button className="bg-blue-600 text-white font-semibold py-2 px-4 rounded">Get Started</button>
@@ -83,13 +82,13 @@ const Home = () => {
                 <p className="text-2xl font-bold mb-4">Contact Us</p>
                 <ul className="mb-6">
                   <li className="flex items-center justify-center mb-2">
-                    <FaCheckCircle className="text-green-500 mr-2" /> All Pro Features
+                    <span className="text-green-500 mr-2">✔</span> All Pro Features
                   </li>
                   <li className="flex items-center justify-center mb-2">
-                    <FaCheckCircle className="text-green-500 mr-2" /> Custom API Limits
+                    <span className="text-green-500 mr-2">✔</span> Custom API Limits
                   </li>
                   <li className="flex items-center justify-center mb-2">
-                    <FaCheckCircle className="text-green-500 mr-2" /> Dedicated Support
+                    <span className="text-green-500 mr-2">✔</span> Dedicated Support
                   </li>
                 </ul>
                 <button className="bg-blue-600 text-white font-semibold py-2 px-4 rounded">Contact Us</button>
@@ -106,21 +105,21 @@ const Home = () => {
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-1/3 p-4">
               <div className="text-center">
-                <FaCheckCircle className="text-blue-600 text-4xl mb-4" />
+                <span className="text-blue-600 text-4xl mb-4">✔</span>
                 <h3 className="text-xl font-bold mb-2">Seamless Integration</h3>
                 <p>Integrate with multiple AI providers effortlessly.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 p-4">
               <div className="text-center">
-                <FaCheckCircle className="text-blue-600 text-4xl mb-4" />
+                <span className="text-blue-600 text-4xl mb-4">✔</span>
                 <h3 className="text-xl font-bold mb-2">Scalable Solutions</h3>
                 <p>Scale your AI capabilities as your business grows.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 p-4">
               <div className="text-center">
-                <FaCheckCircle className="text-blue-600 text-4xl mb-4" />
+                <span className="text-blue-600 text-4xl mb-4">✔</span>
                 <h3 className="text-xl font-bold mb-2">Cost Effective</h3>
                 <p>Get the best value for your investment.</p>
               </div>
