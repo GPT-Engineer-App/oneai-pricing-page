@@ -42,7 +42,7 @@ const Home = () => {
           <div className="flex flex-wrap justify-center">
             {/* Free Plan */}
             <div className="w-full md:w-1/3 lg:w-1/4 p-4">
-              <div className="border rounded-lg p-6 text-center">
+              <div className="border rounded-lg p-6 text-center bg-white shadow-lg">
                 <h3 className="text-xl font-bold mb-4">Free</h3>
                 <p className="text-2xl font-bold mb-4">$0/month</p>
                 <ul className="mb-6">
@@ -53,12 +53,17 @@ const Home = () => {
                     <span className="text-green-500 mr-2">✔</span> Limited API Calls
                   </li>
                 </ul>
+                <div className="text-left mb-4">
+                  <h4 className="font-bold">Cost per Token:</h4>
+                  <p>Model A: $0.001/token</p>
+                  <p>Model B: $0.002/token</p>
+                </div>
                 <button className="bg-blue-600 text-white font-semibold py-2 px-4 rounded">Sign Up</button>
               </div>
             </div>
             {/* Pro Plan */}
             <div className="w-full md:w-1/3 lg:w-1/4 p-4">
-              <div className="border rounded-lg p-6 text-center">
+              <div className="border rounded-lg p-6 text-center bg-white shadow-lg">
                 <h3 className="text-xl font-bold mb-4">Pro</h3>
                 <p className="text-2xl font-bold mb-4">$49/month</p>
                 <ul className="mb-6">
@@ -72,12 +77,17 @@ const Home = () => {
                     <span className="text-green-500 mr-2">✔</span> Priority Support
                   </li>
                 </ul>
+                <div className="text-left mb-4">
+                  <h4 className="font-bold">Cost per Token:</h4>
+                  <p>Model A: $0.0008/token</p>
+                  <p>Model B: $0.0015/token</p>
+                </div>
                 <button className="bg-blue-600 text-white font-semibold py-2 px-4 rounded">Get Started</button>
               </div>
             </div>
             {/* Enterprise Plan */}
             <div className="w-full md:w-1/3 lg:w-1/4 p-4">
-              <div className="border rounded-lg p-6 text-center">
+              <div className="border rounded-lg p-6 text-center bg-white shadow-lg">
                 <h3 className="text-xl font-bold mb-4">Enterprise</h3>
                 <p className="text-2xl font-bold mb-4">Contact Us</p>
                 <ul className="mb-6">
@@ -91,6 +101,11 @@ const Home = () => {
                     <span className="text-green-500 mr-2">✔</span> Dedicated Support
                   </li>
                 </ul>
+                <div className="text-left mb-4">
+                  <h4 className="font-bold">Cost per Token:</h4>
+                  <p>Model A: Custom Pricing</p>
+                  <p>Model B: Custom Pricing</p>
+                </div>
                 <button className="bg-blue-600 text-white font-semibold py-2 px-4 rounded">Contact Us</button>
               </div>
             </div>
@@ -104,21 +119,21 @@ const Home = () => {
           <h2 className="text-3xl font-bold text-center mb-12">Why Choose OneAI?</h2>
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-1/3 p-4">
-              <div className="text-center">
+              <div className="text-center bg-white p-6 rounded-lg shadow-lg">
                 <span className="text-blue-600 text-4xl mb-4">✔</span>
                 <h3 className="text-xl font-bold mb-2">Seamless Integration</h3>
                 <p>Integrate with multiple AI providers effortlessly.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 p-4">
-              <div className="text-center">
+              <div className="text-center bg-white p-6 rounded-lg shadow-lg">
                 <span className="text-blue-600 text-4xl mb-4">✔</span>
                 <h3 className="text-xl font-bold mb-2">Scalable Solutions</h3>
                 <p>Scale your AI capabilities as your business grows.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 p-4">
-              <div className="text-center">
+              <div className="text-center bg-white p-6 rounded-lg shadow-lg">
                 <span className="text-blue-600 text-4xl mb-4">✔</span>
                 <h3 className="text-xl font-bold mb-2">Cost Effective</h3>
                 <p>Get the best value for your investment.</p>
